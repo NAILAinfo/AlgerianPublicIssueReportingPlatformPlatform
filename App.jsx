@@ -6,6 +6,8 @@ import { StatsDashboard } from "./components/StatsDashboard.jsx";
 import { Login } from "./components/Login.jsx";
 import { SignUp } from "./components/SignUp.jsx";
 
+
+
 export default function App() {
   const [activeView, setActiveView] = useState('user');
   const [currentUser, setCurrentUser] = useState(null);
